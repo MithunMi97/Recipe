@@ -16,7 +16,7 @@ class MainComponent extends Component {
     }
 
     componentDidMount() {
-        fetch("http://starlord.hackerearth.com/recipe")
+        fetch("https://devandran.herokuapp.com/recipe")
             .then(res => res.json())
             .then(
                 (result) => {
