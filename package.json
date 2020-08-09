@@ -19,7 +19,7 @@
     "save-dev": "0.0.1-security"
   },
   "scripts": {
-    "start": "react-scripts start",
+    "start": "node server/server.js",
     "predeploy": "npm run build",
     "deploy": "gh-pages -d build",
     "build": "react-scripts build",
